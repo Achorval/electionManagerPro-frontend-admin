@@ -2,23 +2,23 @@
 import { Home, Circle, FileText, Square, UserCheck } from 'react-feather'
 
 export default [
+  // {
+  //   id: 'dashboard',
+  //   title: 'Dashboard',
+  //   icon: <Home size={20} />,
+  //   badge: 'light-warning',
+  //   children: [
+  //     {
+  //       id: 'home',
+  //       title: 'Home',
+  //       icon: <Circle size={12} />,
+  //       navLink: '/dashboard'
+  //     }
+  //   ]
+  // },
   {
-    id: 'dashboard',
-    title: 'Dashboard',
-    icon: <Home size={20} />,
-    badge: 'light-warning',
-    children: [
-      {
-        id: 'home',
-        title: 'Home',
-        icon: <Circle size={12} />,
-        navLink: '/dashboard'
-      }
-    ]
-  },
-  {
-    id: 'pages',
-    title: 'Pages',
+    id: 'systems',
+    title: 'Systems',
     icon: <FileText size={20} />,
     children: [
       {

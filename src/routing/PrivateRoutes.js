@@ -5,7 +5,7 @@ import {Route, Routes, Navigate} from 'react-router-dom';
 import SidebarLayout from 'core/layouts/SidebarLayout';
 
 // ** Components imports
-import Dashboard from '../views/dashboard';
+// import Dashboard from '../views/dashboard';
 import States from '../views/manager/states';
 import Lgas from '../views/manager/lgas';
 import Wards from '../views/manager/wards';
@@ -18,7 +18,7 @@ const PrivateRoutes = () => {
         {/* Redirect to Dashboard after success login/registartion */}
         <Route path='auth/*' element={<Navigate to='/dashboard' />} />
         {/* Pages */}
-        <Route path='dashboard' element={<Dashboard />} />
+        <Route path='dashboard' element={<States />} />
         <Route path='states' element={<States />} />
         <Route path='lgas' element={<Lgas />} />
         <Route path='wards' element={<Wards />} />

@@ -59,7 +59,7 @@ const Login = () => {
         adminData: response.data.data.adminData 
       });
       setCurrentUser(...response.data.data.adminData);
-      navigate('/dashboard');
+      navigate('/states');
       toast.success('You have successfully logged in. Enjoy!');
     } catch (error) {
       if (error.response) {
